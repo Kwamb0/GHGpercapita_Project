@@ -6,7 +6,7 @@
 # Background
 
 # Tools Used
-* Jupyter Notebooks
+* Python
 * HTML
 * Flask
 * Tableau 
