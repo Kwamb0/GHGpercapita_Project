@@ -1,23 +1,40 @@
-from flask import Flask
-from flask import render_template
+# Create API of ML model using flask
 
-# creates a Flask application, named app
+'''
+This code takes the JSON data while POST request an performs the prediction using loaded model and returns
+the results in JSON format.
+'''
+
+# Import libraries
+import numpy as np
+from flask import Flask, render_template, request, jsonify
+import pickle
+
 app = Flask(__name__)
 
-# a route where we will display a welcome message via an HTML template
-@app.route("/")
-def hello():
-#    message = "Hello, World"
-#    return render_template('index.html', message=message)
-     return "hello world" 
-# run the application
-if __name__ == "__main__":
+# Load the model
+model = pickle.load(open('./ML_Script/ghg_linear_model.pkl','rb'))
+
+@app.route('/')
+def home():
+    return render_template("index.html")
+
+
+@app.route('/predict',methods=['POST'])
+def predict():
+    # Get the data from the POST request.
+    if request.method == "POST":
+        #data = request.get_json(force=True)
+        print(request.form['exp'])
+        data = float(request.form['exp'])
+        print("Data", model.predict([[data]]))
+        # Make prediction using model loaded from disk as per the data.
+        prediction = model.predict([[data]])
+
+        # Take the first value of prediction
+        output = prediction[0]
+
+        return render_template("results.html", output=output, exp=data)
+
+if __name__ == '__main__':
     app.run(debug=True)
-#from flask import Flask 
-#
-#app = Flask(__name__)
-#def hello():
-#    return "Hello World!"
-#
-#if __name__ == "__main__":
-#    app.run()
