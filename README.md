@@ -6,6 +6,10 @@
 # Background
 
 # Tools Used
+* Jupyter Notebooks
+* HTML
+* Flask
+* Tableau 
 
 # Process
 
