@@ -10,6 +10,7 @@
 * HTML
 * Flask
 * Tableau 
+* Heroku
 
 # Process
 
