@@ -36,5 +36,9 @@ def predict():
 
         return render_template("results.html", output=output, exp=data)
 
+@app.route('/visualizations/<html_name>')
+def fetch_visual(html_name):
+    return render_template("tableau/{}.html".format(html_name))
+
 if __name__ == '__main__':
     app.run(debug=True)
