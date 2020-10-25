@@ -77,12 +77,12 @@ p {
 }
 
 
-
-
 .form {
     width: 500px;
     height: 500px;
     
 }
 
-
+.tableauPlaceholder {
+    height: 10%
+}
