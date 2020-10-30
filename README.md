@@ -5,7 +5,7 @@
 
 # Background
 
-Countries have two goals that may seem to be in conflict. One is economical -- increase Gross Domestic Product (GDP); and a second is environmental -- reduce greenhouse gas emissions (GHG). Is it possible for countries to do both of these simultaneously? First, we created an interactive dashboard that is able to estimate the amount of metric tons of greenhouse gases an individual will emit based on their GDP per capita. We used data from [World Resouces Institute](https://datasets.wri.org/dataset/cait-country) which had data for 187 country's GDP, population, and greenhouse gas emessions from 1990-2012. We were able to create a model based on this data and forecast what an indvidual's estimated GHG emissions are based on an user inputed GDP per capita. 
+Countries have two goals that may seem to be in conflict. One is economical -- increase Gross Domestic Product (GDP); and a second is environmental -- reduce greenhouse gas emissions (GHG). Is it possible for countries to do both of these simultaneously? First, we created an interactive dashboard that is able to estimate the amount of metric tons of greenhouse gases an individual will emit based on their GDP per capita. We used data from [World Resouces Institute](https://datasets.wri.org/dataset/cait-country) which had data for 187 country's GDP, population, and greenhouse gas emessions from 1990-2012. We were able to create a model based on this data and forecast what an indvidual's estimated GHG emissions are based on a user-inputted GDP per capita. 
 
 # Tools Used
 * Python
