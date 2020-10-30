@@ -5,13 +5,14 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        
     </head>
-    <body>
-
+<body>
+<!--Start of Navbar-->
       <nav class="navbar navbar-dark bg-dark">
         <div class="container-fluid">
           <div class="navbar-header">
-            <a class="navbar-brand" href="/">GHG predictor based on GDP</a>
+            <a class="navbar-brand" href="/">GHG Predictor Based on GDP</a>
           </div>
           <ul class="nav navbar-nav">
             <li class="dropdown">
@@ -20,35 +21,53 @@
           </ul>
         </div>
       </nav>
-
+<!-- End of Navbar-->
 	<header>
+    <style>
+      h2 {text-align: center;}
+    </style>
 		<div class="container">
 		    <h2>GHG Predictor</h2>
 	    </div>
 	</header>
         <div class="container">
+          <section class="row">
             <form action="/predict" method="POST" class="form">
                 <div class="fieldset">
                     <label>Enter Your GDP Per Capita</label>
                     <input class="exp" name="exp"/>
                 </div>
-                <input type="submit" class="button" value="predict">
+                <input type="submit" class="button" value="Predict">
             </form>
+          </section>  
         </div>
-        <p>The Green House Gas (GHG) Predictor Based on Gross Domestic Product (GDP) Per Capita </p>
-        <p>The GHG predictor takes a numeric input of the per capita GDP and outputs a predicted level of GHG produced based on that input.</p>
-        <p>This calculation is accomplished by compairing per capita GDP by nation to the GHG per capita by nation.</p>
-        <p>Linear regression is used to train a machine learning algorithm to make predictions.</p>
-   <img src="https://thumbs.dreamstime.com/z/greenhouse-gas-emissions-cartoon-landscape-clouds-gases-such-as-methane-nitrous-oxide-carbon-dioxide-ozone-rising-67244534.jpg" alt="GHG" width="230" height="180"> 
-   <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.explicit.bing.net%2Fth%3Fid%3DOIP.30__CCFZScBIVKhZevmu0QHaE8%26pid%3DApi&f=1" alt="GDP" width="230" height="180">
-  
+      <div class="container">
+        <section class="row">
+           <div class="col-md-8">
+             <article class="description-content">
+               <h1 class="description-header">What Does This Do?</h1>
+               
+               <p>The GHG predictor takes a numeric input of the per capita GDP and outputs a predicted level of GHG produced based on that input. This calculation is accomplished by compairing per capita GDP by nation to the GHG per capita by nation. Linear regression is used to train a machine learning algorithm to make predictions. </p>
+              
+               <hr class="description-hr"/>
+               <img src="https://news.cnrs.fr/sites/default/files/styles/visuel_principal/public/assets/images/fotolia_52889070_72dpi.jpg" alt="" width="230" height="180" id="GHG">
+               <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.explicit.bing.net%2Fth%3Fid%3DOIP.30__CCFZScBIVKhZevmu0QHaE8%26pid%3DApi&f=1" alt="GDP" width="230" height="180">
+             </article>
+           </div>
+       
+        </section>
+      </div>
+        
+        
+
+   
     <!-- Start of footer -->
     <footer class="footer navbar-fixed-bottom">
       <div class="two-toned-footer-color"></div>
       <p class="text-muted text-muted-footer text-center">
-        &copy; Created by: Mark Sutton, Kanishka Ramanan, Kwasi Ansu, Brain Brown, and Andrew Lamour
+         Created by: Mark Sutton, Kanishka Ramanan, Kwasi Ansu, Brain Brown, and Andrew Lamour
       </p>
     </footer>
-
+    <!-- End of footer-->
   </body>
 
