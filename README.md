@@ -39,3 +39,5 @@ Our Tableau visualizations provided an easy and unique way to find trends within
 # Next Steps for the Future 
 * Breakdown world power country's GHG emissions further and discover which industries whithin these countries are resposible for how much of the total emissions a country. This would show exactly where each country can improve/work on reducing their emissions. 
 * Include population growth into our analysis somehow. 
+* Updating the value of the dollar from 2005 to the current years value. 
+* Updating the data to include the last 8 years. 
