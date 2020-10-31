@@ -32,9 +32,8 @@ def predict():
         lin_prediction = lin_model.predict([[data]])
         poly_prediction = poly_model.predict(poly.fit_transform([[data]]))
         # Take the first value of prediction
-        lin_output = lin_prediction[0]
-        poly_output = poly_prediction[0]
-
+        lin_output = lin_prediction[0].round(2)
+        poly_output = poly_prediction[0].round(2)
 
         return render_template("results.html", lin_output=lin_output, poly_output = poly_output,exp=data)
 

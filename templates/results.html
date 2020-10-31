@@ -19,43 +19,61 @@
             </li>
           </ul>
         </div>
-      </nav>
+    </nav>
 
-	<header>
-		<div class="container">
-      <style>
-        h2 {text-align: center;}
-      </style>
-		    <h2>GHG Predictor</h2>
-	    </div>
-    </header>
-    
-            <div class="container">
-               
-                <div class="fieldset">
-                    <p style="margin:0px;"><b>Linear Regression Results</b></p>
-                   <h1>Your predicted GHG per capita with {{exp}} GDP per capita</h1>
-                   <h1>{{ lin_output }} metric tonnes of CO2e</h1>
-                </div>
-
-                <div class="fieldset">
-                    <p style="margin:0px;"><b>Polynomial Regression Results</b></p>
-                   <h1>Your predicted GHG per capita with {{exp}} GDP per capita</h1>
-                   <h1>{{ poly_output }} metric tonnes of CO2e</h1>
-                </div>
-                    <p>
-                      In comparison, the average metric tonnes emmited by a person living in the USA is 16.71 metric tonnes
-                    </p>
+    <div class="container-fluid">
+        <section class="row">
+          
+          <div class="col-md-4">
+            <div class="fieldset">
+                <h2>Linear Regression Results</h2>
+                <h3><b>Your predicted GHG per capita with {{exp}} GDP per capita {{ lin_output }} metric tonnes of CO2e</b></h3>
+            </div>
           </div>
-            
 
-	 <!-- Start of footer -->
-   <footer class="footer navbar-fixed-bottom">
-    <div class="two-toned-footer-color"></div>
-    <p class="text-muted text-muted-footer text-center">
-       Created by: Mark Sutton, Kanishka Ramanan, Kwasi Ansu, Brain Brown, and Andrew Lamour
-    </p>
-  </footer>
-  <!-- End of footer-->
-	
+          <div class="col-md-2"></div>
+          
+          <div class="col-md-4">
+            <div class="fieldset">
+                <h2>Polynomial Regression Results</h2>
+                <h3><b>Your predicted GHG per capita with {{exp}} GDP per capita {{ poly_output }} metric tonnes of CO2e</b></h3>
+            </div>
+
+        </section>
+
+
+        <section class="row">
+            <div class="col-md-4">
+                <div class='tableauPlaceholder' id='viz1604090664127' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;GH&#47;GHGProject-StoryOct26&#47;Data-Linear&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='GHGProject-StoryOct26&#47;Data-Linear' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;GH&#47;GHGProject-StoryOct26&#47;Data-Linear&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1604090664127');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+            </div>
+            
+            <div class="col-md-2"></div>
+
+            <div class="col-md-4">
+                <div class='tableauPlaceholder' id='viz1604090737249' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;GH&#47;GHGProject-StoryOct26&#47;Data-Polynomial&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='GHGProject-StoryOct26&#47;Data-Polynomial' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;GH&#47;GHGProject-StoryOct26&#47;Data-Polynomial&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1604090737249');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+            </div>
+        </section>
+
+        <hr class="description-hr"/>
+        <section class="row">
+            <div class = "col-md-3"></div>
+            <div class="col-md-6">
+                <p>
+                    In comparison, the average metric tonnes emmited by a person living in the USA is 16.71 metric tonnes
+                </p>
+            </div>
+            <div class = "col-md-3"></div>
+        </section>
+        <hr class="description-hr"/>
+    </div>
+
 </body>
+
+<!-- Start of footer -->
+<footer class="footer navbar-fixed-bottom">
+<div class="two-toned-footer-color"></div>
+<p class="text-muted text-muted-footer text-center">
+    Created by: Mark Sutton, Kanishka Ramanan, Kwasi Ansu, Brain Brown, and Andrew Lamour
+</p>
+</footer>
+<!-- End of footer-->

@@ -23,44 +23,47 @@
       </nav>
 <!-- End of Navbar-->
 	<header>
-    <style>
-      h2 {text-align: center;}
-    </style>
 		<div class="container">
-		    <h2>GHG Predictor</h2>
+		    
 	    </div>
 	</header>
-        <div class="container">
+        
+  
+  <div class="container-fluid">
           <section class="row">
-            <form action="/predict" method="POST" class="form">
-                <div class="fieldset">
+            <div class="col-md-6">
+              <article class="description-content">
+                <h2 class="description-header">What Does This Do?</h2>
+                
+                <p>The GHG predictor takes a numeric input of the per capita GDP and outputs a predicted level of GHG produced based on that input. This calculation is accomplished by compairing per capita GDP by nation to the GHG per capita by nation. Linear regression is used to train a machine learning algorithm to make predictions. </p>
+                
+                <hr class="description-hr"/>
+                <img src="https://news.cnrs.fr/sites/default/files/styles/visuel_principal/public/assets/images/fotolia_52889070_72dpi.jpg" alt="" width="230" height="180" id="GHG">
+                <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.explicit.bing.net%2Fth%3Fid%3DOIP.30__CCFZScBIVKhZevmu0QHaE8%26pid%3DApi&f=1" alt="GDP" width="230" height="180">
+              </article>
+            </div>
+            
+            <div class="col-md-2"></div>
+
+            <div class="col-md-4">
+              <h2>GHG Predictor</h2>
+              <form action="/predict" method="POST" class="form">
+                  <div class="fieldset">
                     <label>Enter Your GDP Per Capita</label>
                     <input class="exp" name="exp"/>
-                </div>
-                <input type="submit" class="button" value="Predict">
-            </form>
-          </section>  
-        </div>
-      <div class="container">
-        <section class="row">
-           <div class="col-md-8">
-             <article class="description-content">
-               <h1 class="description-header">What Does This Do?</h1>
-               
-               <p>The GHG predictor takes a numeric input of the per capita GDP and outputs a predicted level of GHG produced based on that input. This calculation is accomplished by compairing per capita GDP by nation to the GHG per capita by nation. Linear regression is used to train a machine learning algorithm to make predictions. </p>
-              
-               <hr class="description-hr"/>
-               <img src="https://news.cnrs.fr/sites/default/files/styles/visuel_principal/public/assets/images/fotolia_52889070_72dpi.jpg" alt="" width="230" height="180" id="GHG">
-               <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.explicit.bing.net%2Fth%3Fid%3DOIP.30__CCFZScBIVKhZevmu0QHaE8%26pid%3DApi&f=1" alt="GDP" width="230" height="180">
-             </article>
-           </div>
-       
-        </section>
+                    <input type="submit" class="button" value="Predict">
+                  </div>
+              </form>
+            </div>
+          </section>
       </div>
         
         
 
    
+
+  </body>
+
     <!-- Start of footer -->
     <footer class="footer navbar-fixed-bottom">
       <div class="two-toned-footer-color"></div>
@@ -69,5 +72,3 @@
       </p>
     </footer>
     <!-- End of footer-->
-  </body>
-
