@@ -36,5 +36,6 @@ Our Tableau visualizations provided an easy and unique way to find trends within
  <img src="images/fig3.png">
 </p>
 
-# Additional Research for the Future 
-A few changes we could implement for future research into this same topic is one, breakdown world power country's GHG emissions further and discover which industries whithin these countries are resposible for how much of the total emissions a country. This would show exactly where each country can improve and work on reducing their emissions. 
+# Next Steps for the Future 
+* Breakdown world power country's GHG emissions further and discover which industries whithin these countries are resposible for how much of the total emissions a country. This would show exactly where each country can improve/work on reducing their emissions. 
+* Include population growth into our analysis somehow. 
