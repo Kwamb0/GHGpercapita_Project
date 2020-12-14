@@ -3,7 +3,7 @@
  <img src="images/emissions.jpg">
 </p>
 
-View the Tableau Visualation of the data
+View the [Tableau Visualization](https://public.tableau.com/profile/mark.sutton#!/vizhome/GHGProject-StoryOct26/Story1?publish=yes) of the data
 
 # Background
 
@@ -38,7 +38,7 @@ Our Tableau visualizations provided an easy and unique way to find trends within
  <img src="images/fig3.png">
 </p>
 
-# Next Steps for the Future 
+# Potential Next Steps  
 * Breakdown world power country's GHG emissions further and discover which industries whithin these countries are resposible for how much of the total emissions a country. This would show exactly where each country can improve/work on reducing their emissions. 
 * Include population growth into our analysis somehow. 
 * Updating the value of the dollar from 2005 to the current years value. 
