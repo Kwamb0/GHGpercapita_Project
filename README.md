@@ -1,4 +1,4 @@
-# Greenhouse Gases Emitted per Capita
+# Correlation Between GDP Per Capita and Greenhouse Gases Emitted per Capita
 <p align="center">
  <img src="images/emissions.jpg">
 </p>
