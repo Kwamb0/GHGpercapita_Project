@@ -1,4 +1,4 @@
-# Examing the Correlation Between GDP per Capita and Greenhouse Gases Emissions per Capita
+# Examining the Correlation Between GDP per Capita and Greenhouse Gas Emissions per Capita
 <p align="center">
  <img src="images/emissions.jpg">
 </p>
