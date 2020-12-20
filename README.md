@@ -26,11 +26,13 @@ The first step was to clean and fill in any missing data points from the data se
 <p align="center">
  <img src="images/machine.png">
 </p>
+The machine learning code in Python in Jupyter Notebook uses scikitlearn to use machine learning to estimate an individuals annual GHG emissions based on user inputted GDP per capita.
 
 # Figure 2: 
 <p align="center">
  <img src="images/Dashboard.png">
 </p>
+The dashboard above shows the top countries in terms of both GDP per capita and GHG emissions per capita for the year 2012 on the top row. The bottom two graphs shows the trends over time of GDP per capita (blue bars) vs. GHG emmissions per capita (orange line), with the left graph looking at the global average and the right graph being an interactive graph where the user can select 1 or more countries.
 
 # Figure 3: 
 <p align="center">
