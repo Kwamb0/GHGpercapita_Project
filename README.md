@@ -26,7 +26,7 @@ The first step was to clean and fill in any missing data points from the data se
 <p align="center">
  <img src="images/machine.png">
 </p>
-The machine learning code in Python in Jupyter Notebook uses scikitlearn to use machine learning to estimate an individuals annual GHG emissions based on user inputted GDP per capita.
+The machine learning code in Python in Jupyter Notebook uses scikit-learn to use machine learning to estimate an individuals annual GHG emissions based on user inputted GDP per capita.
 
 # Figure 2: 
 <p align="center">
