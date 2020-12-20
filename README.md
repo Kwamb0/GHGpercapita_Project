@@ -27,7 +27,7 @@ The first step was to clean and fill in any missing data points from the data se
 
 # Figure 2: 
 <p align="center">
- <img src="images/Dashbaord.png">
+ <img src="images/Dashboard.png">
 </p>
 
 # Figure 3: 
