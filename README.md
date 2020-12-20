@@ -27,13 +27,18 @@ The first step was to clean and fill in any missing data points from the data se
 
 # Figure 2: 
 <p align="center">
+ <img src="images/Dashbaord.png">
+</p>
+
+# Figure 3: 
+<p align="center">
  <img src="images/tableau.png">
 </p>
 
 # Results
-Our Tableau visualizations provided an easy and unique way to find trends within our data. In figure 3, there is some pretty distinct groupings of countries. One example of this group is the oil producing countries of the Middle East. Those countries were generally grouped in the top right of the graph showing they have a high green house gas emission as well as a higher GDP level. The Northern European countries were mostly grouped at the bottom right of the graph indicating they maintain a high GDP per capita while also having very low emission levels. One country, Bhutan, is the only country in the world that is carbon negative, meaning their green house gas emissions are in the negative due to forests which are carbon sinks. In our data set, there was a few other countries that were in the negatives (ex. Serbia) but upon further research, we believed the data set we used had faulty numbers and outside research confirmed that. 
+Our Tableau visualizations provided an easy and unique way to find trends within our data. Figure 2 is a dashboard showing high emitters, high GDP countries, global trends, and and interactive look over time. In figure 4, there is some pretty distinct groupings of countries. One example of this group is the oil producing countries of the Middle East. Those countries were generally grouped in the top right of the graph showing they have a high green house gas emission as well as a higher GDP level. The Northern European countries were mostly grouped at the bottom right of the graph indicating they maintain a high GDP per capita while also having very low emission levels. One country, Bhutan, is the only country in the world that is carbon negative, meaning their green house gas emissions are in the negative due to forests which are carbon sinks. In our data set, there was a few other countries that were in the negatives (ex. Serbia) but upon further research, we believed the data set we used had faulty numbers and outside research confirmed that. 
 
-# Figure 3: 
+# Figure 4: 
 <p align="center">
  <img src="images/fig3.png">
 </p>
