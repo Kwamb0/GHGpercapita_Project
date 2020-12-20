@@ -5,7 +5,7 @@
 
 View the [Tableau Visualization](https://public.tableau.com/profile/mark.sutton#!/vizhome/GHGProject-StoryOct26/Story1?publish=yes) of the data
 
-View the [Presentation](https://docs.google.com/presentation/d/17-YfukfQGN5UGRZPcsuZG0c2pppAplVxiQyVRQKYgZc/edit?usp=sharing)
+View the <a href="https://docs.google.com/presentation/d/17-YfukfQGN5UGRZPcsuZG0c2pppAplVxiQyVRQKYgZc/edit?usp=sharing" target="_blank">Presentation</a>
 
 # Background
 
